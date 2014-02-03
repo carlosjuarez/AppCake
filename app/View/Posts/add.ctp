@@ -2,10 +2,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
+        <title>Add Post</title>
     </head>
     <body>
-        <h1>Add Post</h1>
+        <h1>Add New Post</h1>
         <?php 
             echo $this->Form->create('Post');
             echo $this->Form->input('title');
